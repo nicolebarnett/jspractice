@@ -1,6 +1,6 @@
 // a switch is a block of code
 
-const person = 'john';
+const person = 'jane';
 switch (person) {
     case 'jane':
         console.log('hi jane');
@@ -62,3 +62,9 @@ if (Tony.age >= 16) {
     Tony.driver = 'no';
 }
 console.log(Tony)
+
+let = isStudent = true;
+
+let price = isStudent ? 8 : 12 
+console.log(price); //8
+
