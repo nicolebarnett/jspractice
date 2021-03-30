@@ -53,3 +53,6 @@ console.log(objTwo['firstName'])
 
 console.log(objTwo.hasOwnProperty('lastName'))
 console.log(objTwo.hasOwnProperty('address'))
+
+const newProps = delete objTwo.firstName
+console.log(newProps)
