@@ -13,10 +13,16 @@ let anotherVar = 5
 
 
 function firstFunction() {
-throw new Error('Stack ')
-
-
+console.log('Hello from first function');
 }
+function secondFunction(){
+    firstFunction();
+    console.log('the end of the second function');
+}
+secondFunction();
 
+console.log(secondFunction)
 
-function
+const greetStudent = () => {console.log('Hewoo uwu') }
+
+console.log(greetStudent())

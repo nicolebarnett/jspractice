@@ -1,0 +1,1 @@
+const twoArugs = (a, b) => [a, b]
